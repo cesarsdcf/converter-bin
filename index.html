@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-bin">
+            <h1>Bin To Dec</h1>
+            <div class="input-bin">
+                <input type="text" id="input-num-bin" onchange="converterBin(this.value)" maxlength="15" placeholder="Enter a binary number">
+            </div>
+            <div class="output-bin">
+                <p class="resultado-bin">0</p>
+            </div>
+        </div>
+        
+        <div class="container-dec">
+            <h1>Dec To Bin</h1>
+            <div class="input-dec">
+                <input type="text" id="input-num-dec" onchange="converterDec(this.value)" maxlength="9" placeholder="Enter a decimal number">
+            </div>
+            <div class="output-dec">
+                <p class="resultado-dec">0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
